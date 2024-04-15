@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+button{
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(131, 100, 72);
+    border: 2px solid rgb(131, 100, 72);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: rgb(131, 100, 72);
+    border: 2px solid rgb(131, 100, 72);
+}
+
+.boxes {
+    border: 1px solid rgb(227, 213, 202);
+    width: 13px;
+    height: 13px;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+}
